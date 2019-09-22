@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="?attr/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:id="@+id/greet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="28sp"
+        android:text="@string/hello"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="8dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:id="@+id/profile_picture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@mipmap/ic_launcher_round"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</FrameLayout>

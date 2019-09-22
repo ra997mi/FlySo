@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="license_message" translatable="false">
+<![CDATA[
+<b>Clans Floating Action Button</b><br><br>
+Copyright &#169; Dmytro Tarianyk
+<br><br>
+
+<b>JSoup</b><br><br>
+Copyright &#169; Jonathan Hedley
+<br><br>
+
+<b>Lollipin</b><br><br>
+Copyright &#169; OrangeGangsters<br><br>
+
+<b>TypefaceView</b><br><br>
+Copyright &#169; OrangeGangsters<br><br>
+
+<b>RippleEffect</b><br><br>
+Copyright &#169; Robin Chutaux<br><br>
+
+<b>Glide</b><br><br>
+Copyright &#169; Sam Judd<br><br>
+
+<b>SpinKit</b><br><br>
+Copyright &#169; Tobias Ahlin, ybq<br><br>
+
+<b>PhotoView</b><br><br>
+Copyright &#169; Chris Banes<br><br>
+
+<b>Toasty</b><br><br>
+Copyright &#169; By GrenderG<br><br>
+
+<b>ColorPicker</b><br><br>
+Copyright &#169; By Petrov Kristiyan<br><br>
+]]>
+</string>
+</resources>

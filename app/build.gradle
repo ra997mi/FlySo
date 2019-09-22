@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.proximadev.flyso"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 5
+        versionName "1.8.8"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+        disable 'ExtraTranslation'
+        return void
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.browser:browser:1.0.0'
+    implementation 'com.google.android.gms:play-services-ads:18.2.0'
+    implementation 'org.jsoup:jsoup:1.12.1'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'com.github.GrenderG:Toasty:1.4.2'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    //RippleView
+    implementation 'com.github.traex.rippleeffect:ripple:1.3.1-OG'
+    //TypefaceView
+    implementation 'com.github.omadahealth.typefaceview:typefaceview:1.5.0@aar'
+    implementation 'petrov.kristiyan:colorpicker-library:1.1.10'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}

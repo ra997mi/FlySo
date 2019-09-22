@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="textSizeList">
+        <item>صغير جدا</item>
+        <item>صغير</item>
+        <item>اعتيادي</item>
+        <item>كبير</item>
+        <item>كبير جدا</item>
+    </string-array>
+    <string-array name="tapPositionList">
+        <item>اعلى</item>
+        <item>اسفل</item>
+        <item>اخفاء</item>
+        </string-array>
+    <string-array name="intervalPrefTitles">
+        <item>1 دقيقة</item>
+        <item>2 دقيقة</item>
+        <item>5 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>1 ساعة</item>
+        <item>3 ساعات</item>
+        <item>6 ساعات</item>
+    </string-array>
+    <string-array name="Start">
+        <item>اخر الاخبار</item>
+        <item>اهم القصص</item>
+    </string-array>
+    <string-array name="themesValues">
+        <item>كلاسيكي</item>
+        <item>عصري</item>
+        <item>مظلم</item>
+        <item>مظلم فاتح</item>
+        <item>اسود</item>
+        <item>ازرق</item>
+        <item>ازرك فاتح</item>
+        <item>اخضر</item>
+        <item>بنفسجي</item>
+        <item>وردي</item>
+        <item>احمر</item>
+    </string-array>
+</resources>

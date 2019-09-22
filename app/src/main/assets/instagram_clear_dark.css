@@ -1,0 +1,108 @@
+:root {
+    --main-color: #23232d;
+    --sec-color: #111;
+    --txt-color: #E5E5E5;
+    --white-color: #fff;
+}
+* {
+    -webkit-tap-highlight-color: rgb(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+}
+body * {
+    color: var(--txt-color) !important;
+}
+.L3NKy {
+    background-color: var(--sec-color);
+}
+a.c-Yi7::after {
+    content:" - Go To Post";
+    color: var(--txt-color) !important;
+    font-weight: bold;
+    font-size: 12px;
+}
+.PyUka, .PyUka::before, ._41KYi, #react-root, .uKzpc, ._6xe7A, ._6FEQj {
+    background: var(--main-color) !important;
+}
+.uUIL6 {
+    background: var(--main-color) !important;
+    border: 1px solid var(--sec-color) !important;
+}
+.vQbKN {
+    color: var(--txt-color) !important;
+    background: var(--main-color) !important;
+}
+.coreSpriteHashtag, .coreSpriteHeartSmall, .glyphsSpriteMobile_nav_type_logo, .glyphsSpriteDirect__outline__24__grey_9, .glyphsSpriteAdd__outline__24__grey_9, .glyphsSpriteInfo__outline__24__grey_9, .glyphsSpritePhoto__outline__24__grey_9 {
+    -webkit-filter: brightness(0) invert(1) !important;
+}
+.MFkQJ, .fP5IM, .APQi1 {
+    display: none;
+}
+.YaGYu, .JJF77, .nuOpI, .HsXaJ, .jy5Eo, .vTJ4h, .Dz3II, .sXUSN, .Um26G, .XA74D, .f5C5x, .Ucj5b, ._0G-TY, .XdXBI, .T030x, .nJAzx, .nJAzx:visited, .zV_Nj, .zV_Nj:visited, .TlrDj, .TlrDj:visited, .HoLwm, .K3Sf1, .zwlfE, .Ypffh, .yrJyr, .yrJyr:visited, .zsYNt, .zsYNt:visited, ._0vRP0, .vvt5g, a.O4GlU, a.O4GlU:visited, .olLwo, .Qj3-a, .Qj3-a:visited, .ziGSO, .-Cab_, .bIiDR, .WquS1, ._34G9B, ._34G9B:visited, ._06yVv, .neTWR, .HSDi9, .sxIVS, .tiXqb, .JLJ-B, .p7vTm, .zOJg-, .ada5V, .QXEMa, .kHYQv, .psMFr, .ufStW, .qlmO5, .XAiP-, .PVkFi, .uyeeR, .qPANj, .VIsJD, .rkEop, .-fzfL, .-vDIg, .g47SY, .Xl2Pu, .YFq-A, .LH36I, ._81NM2, .gu7Jg, .izU2O, .Cpsp3, .t48Bo, .cqXBL, .cqXBL:visited, .y9v3U, .LCjcc:disabled, .olKGW, ._0tv-g, .g4Vm4>a, .g4Vm4>a:visited {
+    color: var(--white-color);
+}
+.GIqfH, .JxpgQ, .pbNvD, .HpHcz, .l9tlA, .zicn_, .Nd6FG, ._8F2QW, ._4Kbb_, .PyUka, .PyUka::before, ._09ncq, .uzKWK, .t48Bo, .gr27e, ._9ezyW, .Dt74z, ._lz6s, .KGiwt, .KGiwt::after, .JxpgQ, .XAtZx, .BvMHM, .BSqtQ, .JvDyy, .AcVnq, .KQA-S, ._1MzIy, ._3MPWk, ._8Rm4L, .zMhqu, ._3Laht, .o64aR, .E3X2T, .DPiy6, .tHaIX {
+    background-color: var(--main-color) !important;
+}
+.kzpmm, .abaSk, .ctKcd, .vtWDf, .r-OKF, .gJlPN, .drKGC, .hUQsm, .h144Z, ._7XkEo, .bR_3v, .Di7vw, .PdTAI, .mAUDl, .YHaCL, .dL3lC, .YQf7h, .dAkUj, .BSqtQ, .zGtbP, .N9abW {
+    background: var(--main-color) !important;
+}
+.coreSpriteActivityHeart, .coreSpriteAddText, .coreSpriteAppIcon, .coreSpriteAppStoreButton, .coreSpriteBoomerang, .coreSpriteCall, .coreSpriteCheck, .coreSpriteChevronDark, .coreSpriteChevronDownGrey, .coreSpriteChevronRight, .coreSpriteCi, .coreSpriteClose, .coreSpriteCloseLight, .coreSpriteDesktopNavActivity, .coreSpriteDesktopNavDirect, .coreSpriteDesktopNavExplore, .coreSpriteDesktopNavLogoAndWordmark, .coreSpriteDesktopNavProfile, .coreSpriteDesktopPhotoGrid, .coreSpriteDesktopPhotoGridActive, .coreSpriteDesktopProfileIGTV, .coreSpriteDesktopProfileIGTVActive, .coreSpriteDesktopProfileSave, .coreSpriteDesktopProfileSaveActive, .coreSpriteDesktopProfileTagged, .coreSpriteDesktopProfileTaggedActive, .coreSpriteDirectHeart, .coreSpriteDismissLarge, .coreSpriteDownload, .coreSpriteDropdownArrowBlue5, .coreSpriteDropdownArrowBlue6, .coreSpriteDropdownArrowGrey9, .coreSpriteFacebookIcon, .coreSpriteFbGlyph, .coreSpriteGallery, .coreSpriteGlyphBlack, .coreSpriteGlyphGradient, .coreSpriteGlyphHashtag, .coreSpriteGlyphLocation, .coreSpriteGlyphWhite, .coreSpriteGooglePlayButton, .coreSpriteHashtag, .coreSpriteHeartSmall, .coreSpriteHyperlapse, .coreSpriteInfo, .coreSpriteInputAccepted, .coreSpriteInputError, .coreSpriteInputRefresh, .coreSpriteKeyhole, .coreSpriteLeftChevron, .coreSpriteLeftPaginationArrow, .coreSpriteLikeAnimationHeart, .coreSpriteLocation, .coreSpriteLocationActive, .coreSpriteLock, .coreSpriteLockSmall, .coreSpriteLoggedOutGenericUpsell, .coreSpriteLoggedOutWordmark, .coreSpriteMobileNavDirect, .coreSpriteMobileNavSettings, .coreSpriteMobileNavTypeLogo, .coreSpriteNavBack, .coreSpriteNotificationLeftChevron, .coreSpriteNullProfile, .coreSpriteOptionsEllipsis, .coreSpriteOptionsEllipsisLight, .coreSpritePagingChevron, .coreSpritePhotoList, .coreSpritePhotoListActive, .coreSpritePlayIconSmall, .coreSpritePrivateLock, .coreSpriteProfileCamera, .coreSpriteProfileTagged, .coreSpriteProfileTaggedActive, .coreSpriteReload, .coreSpriteRightChevron, .coreSpriteRightPaginationArrow, .coreSpriteSaveNull, .coreSpriteSaveStory, .coreSpriteSearchClear, .coreSpriteSearchIcon, .coreSpriteSensitivityIcon, .coreSpriteSensitivityIconSmall, .coreSpriteSpeechBubbleSmall, .coreSpriteSpinsta, .coreSpriteSpinstaNux, .coreSpriteSpinstaStory, .coreSpriteStoryCreation, .coreSpriteStoryRing, .coreSpriteStoryViewCount, .coreSpriteTaggedNull, .coreSpriteUnreadUsertags, .coreSpriteVideoIconLarge, .coreSpriteVideoNux, .coreSpriteViewCount, .coreSpriteWindowsStoreButton, .coreSpriteWordmark, ._4umcQ, .ztp9m, .glyphsSpriteSettings__outline__24__grey_9 {
+    filter: contrast(1000%) invert(100%) sepia(100%) !important;
+}
+.glyphsSpriteCamera__outline__24__grey_9, .glyphsSpriteChevron_left__outline__24__grey_9, .glyphsSpriteChisel__filled__44, .glyphsSpriteChisel__outline__44, .glyphsSpriteComment__outline__24__grey_9, .glyphsSpriteDelete__outline__24__grey_0, .glyphsSpriteDownload__filled__44, .glyphsSpriteDrawing_tools__filled__44, .glyphsSpriteEraser__filled__44, .glyphsSpriteEraser__outline__44, .glyphsSpriteHeart__filled__24__grey_9, .glyphsSpriteHeart__outline__24__grey_9, .glyphsSpriteHome__filled__24__grey_9, .glyphsSpriteHome__outline__24__grey_9, .glyphsSpriteMagic__filled__44, .glyphsSpriteMagic__outline__44, .glyphsSpriteMarker__filled__44, .glyphsSpriteMarker__outline__44, .glyphsSpriteMore_horizontal__outline__24__grey_9, .glyphsSpriteNew_post__outline__24__grey_9, .glyphsSpriteNew_story__outline__24__grey_0, .glyphsSpriteSave__filled__24__grey_9, .glyphsSpriteSave__outline__24__grey_9, .glyphsSpriteSearch__filled__24__grey_9, .glyphsSpriteSearch__outline__24__grey_9, .glyphsSpriteSticker__outline__44, .glyphsSpriteText__filled__44, .glyphsSpriteUser__filled__24__grey_9, .glyphsSpriteUser__outline__24__grey_9, .glyphsSpriteUser_follow__outline__24__grey_9, .glyphsSpriteX__outline__24__grey_9, .glyphsSpriteX__outline__44 {
+    filter: contrast(1000%) invert(100%) sepia(100%) !important;
+}
+.jIbKX, .m4t9r.jIbKX {
+    background: var(--main-color) !important;
+    border-color: var(--sec-color) !important;
+    color: var(--white-color);
+}
+.PdTAI, .aOOlW, ._3dEHb, .fx7hk, .abaSk {
+    border-top: 0px solid var(--sec-color) !important;
+}
+.mAUDl, .XAtZx, .u_1x6, .yCE8d, .PUHRj::after {
+    border-bottom: 0px solid var(--sec-color) !important;
+}
+a, a:visited, ._32eiM, ._32eiM:visited {
+    color: #4088d0;
+}
+.D7R7L {
+    filter: invert(100%);
+    border: 1px solid var(--sec-color) !important;
+}
+.sH9wk {
+    padding: 5px;
+    border-radius: 1px;
+    border: 1px solid var(--sec-color) !important;
+}
+.n_COB, .dfm5c, .dfm5c:active, .dfm5c:visited, .GAMXX, .GAMXX:visited, .BcJ68, .zy6NE, .zy6NE:visited {
+    color: var(--white-color);
+}
+.AHCwU, .fb_mobile_overlay_active, .fb_dialog_content {
+    background-color: var(--main-color) !important;
+}
+.VR6_Q {
+    background: var(--main-color) !important;
+}
+a, a:visited, ._32eiM, .yQ0j1, ._32eiM:visited, .eXle2, .tc8A9, .Rebts, ._7cyhW, .izU2O>a, .izU2O>a:active, .izU2O>a:hover, .izU2O>a:visited, ._2Lks6, ._2Lks6:active, ._2Lks6:hover, ._2Lks6:visited, .DINPA, .n_COB, .dfm5c, .dfm5c:active, .dfm5c:visited, .GAMXX, .GAMXX:visited, .BcJ68, .zy6NE, .zy6NE:visited, .m6lg3, .vvzhL, .g4Vm4 {
+    color: var(--white-color);
+}
+.y2E5d {
+    border-bottom: 0 solid var(--sec-color) !important;
+}
+.Bi9od {
+    border: 1.5px solid var(--sec-color) !important;
+}
+.tlZCJ:checked~.mwD2G::before {
+    border-bottom: 2px solid var(--white-color);
+    border-left: 2px solid var(--white-color);
+}
+.n1LTb .RxpZH {
+    background-color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+    border-top: 1px solid var(--main-color);
+}
+.NP414, .uKzpc, ._4Kbb_{
+    border: unset;
+}

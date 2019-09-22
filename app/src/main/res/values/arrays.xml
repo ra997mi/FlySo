@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="textSizeList">
+        <item>Extra Small</item>
+        <item>Small</item>
+        <item>Standard</item>
+        <item>Big</item>
+        <item>Huge</item>
+    </string-array>
+    <string-array name="textSizeListValues" translatable="false">
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>120</item>
+        <item>140</item>
+    </string-array>
+    <string-array name="tapPositionList">
+        <item>Top</item>
+        <item>Bottom</item>
+        <item>Hide</item>
+    </string-array>
+    <string-array name="tapPositionListValues" translatable="false">
+        <item>Top</item>
+        <item>Bottom</item>
+        <item>Hide</item>
+    </string-array>
+    <string-array name="intervalPrefTitles">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+    </string-array>
+    <string-array name="intervalPrefValues" translatable="false">
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>10800000</item>
+        <item>21600000</item>
+    </string-array>
+    <string-array name="themesValues" translatable="false">
+        <item>Classic</item>
+        <item>Material</item>
+        <item>Dark</item>
+        <item>Clear Dark</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>LightBlue</item>
+        <item>Green</item>
+        <item>Purple</item>
+        <item>Pink</item>
+        <item>Red</item>
+    </string-array>
+    <string-array name="instagram_themesValues" translatable="false">
+        <item>instagram.css</item>
+        <item>instagram_material.css</item>
+        <item>instagram_dark.css</item>
+        <item>instagram_clear_dark.css</item>
+        <item>instagram_black.css</item>
+        <item>instagram_blue.css</item>
+        <item>instagram_lightblue.css</item>
+        <item>instagram_green.css</item>
+        <item>instagram_purple.css</item>
+        <item>instagram_pink.css</item>
+        <item>instagram_red.css</item>
+    </string-array>
+    <string-array name="facebook_themesValues" translatable="false">
+        <item>Classic</item>
+        <item>facebook_material.css</item>
+        <item>facebook_dark.css</item>
+        <item>facebook_clear_dark.css</item>
+        <item>facebook_black.css</item>
+        <item>facebook_blue.css</item>
+        <item>facebook_lightblue.css</item>
+        <item>facebook_green.css</item>
+        <item>facebook_purple.css</item>
+        <item>facebook_pink.css</item>
+        <item>facebook_red.css</item>
+    </string-array>
+    <string-array name="Start" translatable="false">
+        <item>MostRecent</item>
+        <item>TopStories</item>
+    </string-array>
+    <string-array name="StartValues" translatable="false">
+        <item>https://m.facebook.com/home.php?sk=h_chr</item>
+        <item>https://m.facebook.com/home.php?sk=h_nor</item>
+    </string-array>
+</resources>

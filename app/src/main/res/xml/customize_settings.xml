@@ -1,0 +1,100 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/facebook">
+
+        <SwitchPreference
+            android:key="facebookSwitch"
+            android:title="@string/facebook"
+            android:icon="@drawable/ic_facebook"
+            android:defaultValue="false"/>
+
+        <SwitchPreference
+            android:dependency="facebookSwitch"
+            android:key="FacebookDetails"
+            android:title="@string/fb_details"
+            android:icon="@drawable/ic_account"
+            android:summary="@string/fb_details_summery"
+            android:defaultValue="false"/>
+
+        <ListPreference
+            android:dependency="facebookSwitch"
+            android:icon="@drawable/ic_web"
+            android:defaultValue="https://m.facebook.com/home.php?sk=h_chr"
+            android:entries="@array/Start"
+            android:entryValues="@array/StartValues"
+            android:key="start_url"
+            android:summary="%s"
+            android:title="@string/start_url" />
+
+        <ListPreference
+            android:dependency="facebookSwitch"
+            android:title="@string/facebook_themes"
+            android:icon="@drawable/ic_color"
+            android:summary="%s"
+            android:key="facebook_theme"
+            android:entries="@array/themesValues"
+            android:entryValues="@array/facebook_themesValues"
+            android:defaultValue="Classic" />
+
+        <SwitchPreference
+            android:dependency="facebookSwitch"
+            android:key="facebook_center_text"
+            android:title="@string/facebook_center_text"
+            android:icon="@drawable/ic_center_text"
+            android:summary="@string/facebook_center_description"
+            android:defaultValue="false"/>
+
+        <SwitchPreference
+            android:dependency="facebookSwitch"
+            android:key="facebook_copy_text"
+            android:title="@string/facebook_copy_text"
+            android:icon="@drawable/ic_copy_text"
+            android:summary="@string/facebook_copy_description"
+            android:defaultValue="false"/>
+
+        <SwitchPreference
+            android:dependency="facebookSwitch"
+            android:key="facebookFab"
+            android:title="@string/fab_enable"
+            android:icon="@drawable/ic_fab"
+            android:summary="@string/fab_enable_summary"
+            android:defaultValue="false"/>
+
+        <SwitchPreference
+            android:dependency="facebookSwitch"
+            android:key="DefaultPlayer"
+            android:title="@string/default_player"
+            android:icon="@drawable/ic_play"
+            android:summary="@string/use_default_player"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="save_data"
+            android:title="@string/facebook_savedate"
+            android:icon="@drawable/ic_data"
+            android:summary="@string/use_facebooksavedata"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/instagram">
+
+        <SwitchPreference
+            android:key="InstagramThemes"
+            android:title="@string/instagram"
+            android:icon="@drawable/ic_instagram"
+            android:defaultValue="false"/>
+
+        <ListPreference
+            android:dependency="InstagramThemes"
+            android:title="@string/instagram_themes"
+            android:icon="@drawable/ic_color"
+            android:summary="%s"
+            android:key="instagram_theme"
+            android:entries="@array/themesValues"
+            android:entryValues="@array/instagram_themesValues"
+            android:defaultValue="instagram.css" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
