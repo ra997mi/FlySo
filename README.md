@@ -1,7 +1,5 @@
 ### FlySo
 
-Link : <a href = "https://play.google.com/store/apps/details?id=com.proximadev.flyso">Google Play</a>
-
 **Bring your favourite social in one small alternative app and save your device memory and storage, Flyso comes with lot of features and awesome functions, including customization, pinlock and colorful themes and others.**
 
 What features it include?
